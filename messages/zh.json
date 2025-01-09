@@ -1,0 +1,165 @@
+{
+  "auth": {
+    "description": "创建者开启了验证，请在下方填入分享码",
+    "form": {
+      "confirm_button": "确认",
+      "confirm_button_loading": "验证中",
+      "input_code": "请输入分享码",
+      "remember_code": "记住分享码"
+    },
+    "title": "需要分享码"
+  },
+  "global": {
+    "error": {
+      "copy_failed": "复制失败",
+      "code_invalid": "分享码错误, 更多请访问 302.AI",
+      "network_error": "网络服务错误, 请查看网络状态或稍后再试!",
+      "not_found": "页面不存在",
+      "tool_deleted": "该工具已删除, 更多请访问 <site>302.AI</site>",
+      "tool_disabled": "该工具已禁用, 更多请访问 <site>302.AI</site>",
+      "unknown_error": "发生未知错误, 请联系客服"
+    },
+    "footer": {
+      "copyright_content": "本项目由<logo></logo>驱动",
+      "copyright_leading": "内容由AI生成，仅供参考"
+    },
+    "header": {
+      "language_switcher": {
+        "switch_language": "切换语言"
+      },
+      "theme_switcher": {
+        "dark": "暗色模式",
+        "light": "亮色模式",
+        "system": "跟随系统",
+        "toggle_theme": "切换主题"
+      },
+      "tool_info": {
+        "description": "当前工具相关信息",
+        "title": "关于",
+        "trigger": {
+          "label": "打开/关闭工具信息弹窗"
+        }
+      }
+    }
+  },
+  "home": {
+    "header": {
+      "title": "AI红包封面生成",
+      "subtitle": "新年快乐，蛇年大吉"
+    },
+    "cover_list": {
+      "title": "更多封面",
+      "history_title": "历史生成记录"
+    }
+  },
+  "editTab": {
+    "form": {
+      "cover_prompt": {
+        "action_label": "立即生成",
+        "action_regenerate_label": "重新生成",
+        "action_loading_label": "生成中...",
+        "download_label": "下载",
+        "download_loading": "下载中...",
+        "download_success": "下载成功",
+        "download_failed": "下载失败",
+        "placeholder": "输入要生成的红包封面描述",
+        "note": {
+          "main": "此处下载的封面图片，不能直接用于微信发红包。你可以上传到微信红包封面开放平台，",
+          "suffix": "定制你的红包封面"
+        },
+        "video_prompt": {
+          "placeholder": "输入要生成的红包封面视频描述"
+        }
+      },
+      "cover_type_select": {
+        "cover_image": "封面图",
+        "cover_video": "封面视频"
+      },
+      "cover_image_model_select": {
+        "doubao": "豆包",
+        "flux": "Flux"
+      },
+      "cover_video_model_select": {
+        "PixVerse": "PixVerse",
+        "Kling": "可灵"
+      },
+      "tab_label": {
+        "cover_image": "红包封面",
+        "cover_pendant": "封面挂件",
+        "bubble_pendant": "气泡挂件"
+      },
+      "default_sample": {
+        "image_prompt": "中国龙的IP形象，龙头，龙角，恐龙尾巴，可爱，可爱，多彩，十二生肖龙，穿着舞狮，手工铜钱，可爱表情，笑容，超级细节。",
+        "video_prompt": "中国龙的IP形象，龙头，龙角，恐龙尾巴，可爱，可爱，多彩，十二生肖龙，穿着舞狮，手工铜钱，可爱表情，笑容，超级细节。"
+      }
+    },
+    "generation": {
+      "generating_image": "封面图生成中...",
+      "generating_video": "封面视频生成中...",
+      "generating_image_success": "封面图生成成功",
+      "generating_video_success": "封面视频生成成功",
+      "generating_image_failed": "封面图生成失败",
+      "generating_video_failed": "封面视频生成失败",
+      "errors": {
+        "coverImagePrompt": "请输入要生成的红包封面描述",
+        "coverImageModel": "请选择封面图模型",
+        "coverVideoPrompt": "请输入要生成的红包封面视频描述",
+        "coverVideoModel": "请选择封面视频模型",
+        "coverImageUrl": "缺少封面图"
+      }
+    },
+    "image_preview": {
+      "cover_list": {
+        "cover_image": {
+          "sample_1_prompt": "中国龙的IP形象，龙头，龙角，恐龙尾巴，可爱，可爱，多彩，十二生肖龙，穿着舞狮，手工铜钱，可爱表情，笑容，超级细节。",
+          "sample_2_prompt": "可爱的中国财神印花贴纸，一个可爱的中国财神手持金元宝，周围环绕着金币，采用2D游戏艺术风格，patrick brown，邱胜贤，儿童书插画，蛇形姿态。",
+          "sample_3_prompt": "一家人在一个大生日蛋糕前为小男孩庆祝生日，蛋糕上插满了蜡烛。周围有许多彩色气球和丝带。每个人的脸上都洋溢着幸福和欢乐的笑容。",
+          "sample_4_prompt": "一只可爱的兔子在院子里捣年糕，背后有一轮明月。院子古色古香，挂着灯笼，有很多桃树。",
+          "sample_5_prompt": "一名足球运动员在场上挥汗如雨，将球踢入球门，身后是兴奋的观众。",
+          "sample_6_prompt": "喜庆红色和家庭团圆主题，融入中国龙和象征性飞机设计，强调喜庆和新年节庆，富含中国文化元素，以柔和温暖的配色方案，动态生动的插画，简约的彩色壁画手法。",
+          "sample_7_prompt": "一只可爱的小黄鸭在洗澡，有泡泡和浴缸，手绘卡通风格，色彩丰富。",
+          "sample_8_prompt": "神秘花园，一扇推开的木窗，窗外是一个布满各种花朵的花园，色彩斑斓。",
+          "sample_9_prompt": "雪山，山脚下有一片湖泊。",
+          "sample_10_prompt": "一个树木葱郁的山谷，山顶有瀑布倾泻而下，在山脚的湖面上激起水花，形成壮观的景象。",
+          "sample_11_prompt": "新年氛围，一家人围坐在圆桌旁吃饭。室内墙壁、地板和餐桌都装饰着喜庆的红黄主题。桌上摆满了各种美味佳肴。背景有一扇窗户，窗外正在轻轻飘落雪花。全家人正开心地享受着年夜饭。",
+          "sample_12_prompt": "美丽的艾莎公主站在雪地里，背景是雪景和树木，天空中飘着许多雪花。",
+          "sample_13_prompt": "以粉色和紫色为主题色的简单图案设计。",
+          "sample_14_prompt": "财神爷面带笑容，是一位身着古代官服的富态男子。左手持金元宝，右手持如意，脚踏麒麟。",
+          "sample_15_prompt": "可爱的迪士尼米老鼠伸手展示身后的巨大城堡，蓝天背景中漂浮着许多气球。",
+          "sample_16_prompt": "一个冲浪者在海上冲浪，浪花翻涌，蓝天白云下海鸥飞翔。",
+          "sample_17_prompt": "原始森林长满了蘑菇，地面上有许多苔藓，树上缠绕着藤蔓。许多动物在这里躲藏生活。",
+          "sample_18_prompt": "可爱的小狗和小猫在客厅里依偎在一起，上方有一扇木窗。窗台上放着一个花瓶，窗外已是夜色，挂着一轮明月。"
+        },
+        "cover_video": {
+          "sample_3_prompt": "一家四口围坐在蛋糕桌旁，拍手唱生日歌，气球在周围轻轻摇摆。",
+          "sample_11_prompt": "一家人围坐在桌旁，享受热腾腾的年夜饭，窗外飘着雪花。",
+          "sample_12_prompt": "艾莎，雪女王，站在雪地里向你挥手，雪花轻轻飘落。",
+          "sample_15_prompt": "米老鼠面带微笑，张开双臂，身后许多气球缓缓升入空中。",
+          "sample_16_prompt": "冲浪者在海上冲浪，海浪翻滚，蓝天白云下海鸥飞翔。"
+        }
+      },
+      "label": "封面图",
+      "image": "预览图",
+      "cover_bottom": "红包底部",
+      "download": {
+        "downloading": "下载中...",
+        "download_success": "下载成功",
+        "download_failed": "下载失败",
+        "image_name": "红包封面"
+      },
+      "placeholder": "暂未生成封面图"
+    },
+    "video_preview": {
+      "label": "封面视频",
+      "image": "预览视频",
+      "cover_bottom": "红包底部",
+      "download": {
+        "downloading": "下载中...",
+        "download_success": "下载成功",
+        "download_failed": "下载失败",
+        "image_name": "红包封面视频"
+      },
+      "placeholder": "暂未生成封面视频"
+    }
+  }
+}

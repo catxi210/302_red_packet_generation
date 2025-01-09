@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_图层_1" data-name=" 图层 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250 250">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #d3d3dd;
+      }
+
+      .cls-3 {
+        fill: url(#_未命名的渐变_24);
+      }
+
+      .cls-4 {
+        fill: #a89dea;
+      }
+    </style>
+    <linearGradient id="_未命名的渐变_24" data-name="未命名的渐变 24" x1="125.9" y1="-1083.72" x2="124.12" y2="-823.72" gradientTransform="translate(0 -827.13) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d3d3dd" stop-opacity="0"/>
+      <stop offset=".99" stop-color="#fff" stop-opacity=".8"/>
+    </linearGradient>
+  </defs>
+  <circle class="cls-3" cx="125" cy="125" r="125"/>
+  <path class="cls-2" d="M64.27,196.95c0,6.5,27.5,11.7,61.3,11.7s61.3-5.2,61.3-11.7-27.5-11.7-61.3-11.7-61.3,5.2-61.3,11.7h0Z"/>
+  <g>
+    <path class="cls-1" d="M207.51,155.67l10.67,10.67c.59,.59,.59,1.29,0,1.88l-1.29,1.29c-.59,.59-1.29,.59-1.88,0l-10.67-10.67c-.59-.59-.59-1.29,0-1.88l1.29-1.29c.7-.7,1.29-.7,1.88,0Z"/>
+    <path class="cls-1" d="M218.18,158.72l-10.67,10.67c-.59,.59-1.29,.59-1.88,0l-1.29-1.29c-.59-.59-.59-1.29,0-1.88l10.67-10.67c.59-.59,1.29-.59,1.88,0l1.29,1.29c.59,.7,.59,1.29,0,1.88Z"/>
+  </g>
+  <g>
+    <path class="cls-1" d="M28.73,97.66l9.09,9.09c.5,.5,.5,1.1,0,1.6l-1.1,1.1c-.5,.5-1.1,.5-1.6,0l-9.09-9.09c-.5-.5-.5-1.1,0-1.6l1.1-1.1c.6-.6,1.1-.6,1.6,0Z"/>
+    <path class="cls-1" d="M37.82,100.26l-9.09,9.09c-.5,.5-1.1,.5-1.6,0l-1.1-1.1c-.5-.5-.5-1.1,0-1.6l9.09-9.09c.5-.5,1.1-.5,1.6,0l1.1,1.1c.5,.6,.5,1.1,0,1.6Z"/>
+  </g>
+  <g>
+    <rect class="cls-2" x="75.17" y="66.32" width="114.93" height="84.23" rx="8.69" ry="8.69"/>
+    <rect class="cls-1" x="59.9" y="80.6" width="114.93" height="84.23" rx="8.69" ry="8.69"/>
+    <path class="cls-4" d="M104.7,138.42l-.23-31.63c-.02-2.78,3.07-4.44,5.37-2.9l23.41,15.6c2.05,1.37,2.08,4.4,.04,5.8l-23.18,15.94c-2.2,1.57-5.39-.04-5.41-2.82h0Z"/>
+  </g>
+  <circle class="cls-1" cx="169.91" cy="49.78" r="3.3"/>
+  <circle class="cls-1" cx="156.06" cy="49.78" r="3.3"/>
+  <circle class="cls-1" cx="127" cy="49.78" r="3.3"/>
+  <circle class="cls-1" cx="112.51" cy="49.78" r="3.3"/>
+  <circle class="cls-1" cx="141.81" cy="49.78" r="3.3"/>
+</svg>
