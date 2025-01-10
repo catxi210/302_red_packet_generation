@@ -310,7 +310,7 @@ export function useEditForm() {
           imagePrompt: coverImagePrompt,
           imageModel: coverImageModel as ImageModel,
           imageUrl: coverImage,
-          videoPrompt: "",
+          videoPrompt: coverImagePrompt,
           videoModel: null,
           videoUrl: "",
         };
