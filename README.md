@@ -13,7 +13,7 @@ This is the open-source version of the [AI Red Pocket Cover Generation](https://
 
 ## Interface Preview
 Generate red packet cover images or videos based on input descriptions, and preview the red packet effect  
-![](docs/302_AI_Red_Pocket_Cover_Generation_screenshot_en.png)
+![](docs/302_AI_Red_Pocket_Cover_Generation_en_screenshot.png)
 
 
 ## Project Features
