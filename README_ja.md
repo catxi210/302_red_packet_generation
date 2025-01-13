@@ -15,7 +15,7 @@
 
 ## インターフェースプレビュー
 入力した説明に基づいて、赤い包みのカバー画像や動画を生成し、効果をプレビューできます  
-![](docs/302_AI_Red_Pocket_Cover_Generation_screenshot_jp.png)
+![](docs/302_AI_Red_Pocket_Cover_Generation_jp_screenshot.png)
 
 
 ## プロジェクトの特徴
