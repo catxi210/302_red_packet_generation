@@ -5,7 +5,7 @@ export const editFormSchema = z
     currentType: z.string(),
     coverImagePrompt: z.string(),
     coverImageModel: z.string(),
-    coverImageUrl: z.string(),
+    coverImageUrl: z.string().optional(),
     coverVideoPrompt: z.string(),
     coverVideoModel: z.string(),
   })

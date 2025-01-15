@@ -104,7 +104,7 @@ export function useEditForm() {
           itemType: currentType as ItemType,
           imagePrompt: coverImagePrompt,
           imageModel: coverImageModel as ImageModel,
-          imageUrl: coverImageUrl,
+          imageUrl: coverImageUrl ?? "",
           videoPrompt: coverVideoPrompt,
           videoModel: coverVideoModel as VideoModel,
           videoUrl: data.data.video_url!,
@@ -168,7 +168,7 @@ export function useEditForm() {
           itemType: currentType as ItemType,
           imagePrompt: coverImagePrompt,
           imageModel: coverImageModel as ImageModel,
-          imageUrl: coverImageUrl,
+          imageUrl: coverImageUrl ?? "",
           videoPrompt: coverVideoPrompt,
           videoModel: coverVideoModel as VideoModel,
           videoUrl: data.data.works[0].resource.resource,
@@ -302,6 +302,10 @@ export function useEditForm() {
           ).data.image_urls[0];
         }
 
+        if (!coverImage) {
+          throw new Error("Failed to generate image");
+        }
+
         const generatedItem: GeneratedItem = {
           id: Date.now(),
           isSample: false,
@@ -348,7 +352,7 @@ export function useEditForm() {
         try {
           const task = await getPixVerseTask({
             prompt: coverVideoPrompt,
-            image: coverImageUrl,
+            image: coverImageUrl ?? "",
           });
 
           startPixVersePolling(task.data.task_id);
@@ -367,7 +371,7 @@ export function useEditForm() {
         try {
           const task = await getKlingTask({
             prompt: coverVideoPrompt,
-            inputImage: coverImageUrl,
+            inputImage: coverImageUrl ?? "",
           });
 
           startKlingPolling(task.data.task.id);
