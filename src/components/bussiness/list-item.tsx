@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import coverBottom from "@/assets/images/cover_bottom.png";
 import { useTranslations } from "next-intl";
@@ -55,14 +56,13 @@ export default function ListItem({ item, onClick, onDelete }: ListItemProps) {
       {inView && (
         <>
           {item.itemType === "coverImage" ? (
-            <Image
+            <img
               className="absolute left-0 top-0 rounded-lg object-contain"
               src={item.imageUrl}
               alt={item.imagePrompt}
               width={957}
               height={1278}
               onLoad={() => setIsLoading(false)}
-              priority
             />
           ) : (
             <video

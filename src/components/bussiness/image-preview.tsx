@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useTranslations } from "next-intl";
 import coverBottom from "@/assets/images/cover_bottom.png";
 import Image from "next/image";
@@ -68,7 +69,7 @@ export default function ImagePreview({ className, source }: ImagePreviewProps) {
           </div>
         )}
         {source && (
-          <Image
+          <img
             className="absolute inset-0 h-auto w-full rounded-md object-contain max-md:rounded-sm"
             src={source}
             alt={t("image")}

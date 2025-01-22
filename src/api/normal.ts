@@ -44,7 +44,9 @@ export const apiKy = ky.create({
           if (res.error && uiLanguage) {
             const countryCode = langToCountry(uiLanguage);
             const message =
-              res.error[`message${countryCode ? `_${countryCode}` : ""}`];
+              res.error[
+                `message${countryCode && countryCode !== "en" ? `_${countryCode}` : ""}`
+              ];
             emitter.emit("ToastError", {
               code: res.error.err_code,
               message,
@@ -85,7 +87,9 @@ export const toolApiKy = ky.create({
           if (res.error && uiLanguage) {
             const countryCode = langToCountry(uiLanguage);
             const message =
-              res.error[`message${countryCode ? `_${countryCode}` : ""}`];
+              res.error[
+                `message${countryCode && countryCode !== "en" ? `_${countryCode}` : ""}`
+              ];
             emitter.emit("ToastError", {
               code: res.error.err_code,
               message,

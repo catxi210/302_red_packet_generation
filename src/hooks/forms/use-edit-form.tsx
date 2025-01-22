@@ -121,7 +121,7 @@ export function useEditForm() {
 
         logger.debug("Task successed:", data);
       },
-      onError: (error) => {
+      onError: (error: any) => {
         toast.dismiss(GENERATING_VIDEO_TOAST_ID);
         toast.error(t("generating_video_failed"));
 
@@ -185,14 +185,14 @@ export function useEditForm() {
 
         logger.debug("Task successed:", data);
       },
-      onError: (error) => {
-        toast.dismiss(GENERATING_VIDEO_TOAST_ID);
-        toast.error(t("generating_video_failed"));
-
+      onError: (error: any) => {
         store.set(clearKlingStatus);
         store.set(setPolling, false);
 
-        logger.error("Error polling video:", error);
+        toast.dismiss(GENERATING_VIDEO_TOAST_ID);
+        toast.error(t("generating_video_failed"));
+
+        logger.error("Error generating video:", error);
       },
       onData: (data) => {
         toast.loading(t("generating_video"), {
@@ -326,7 +326,7 @@ export function useEditForm() {
         toast.success(t("generating_image_success"));
 
         logger.debug("coverImage", coverImage);
-      } catch (error) {
+      } catch (error: any) {
         toast.dismiss(GENERATING_IMAGE_TOAST_ID);
         toast.error(t("generating_image_failed"));
 
@@ -358,7 +358,7 @@ export function useEditForm() {
           startPixVersePolling(task.data.task_id);
 
           logger.debug("Create a video task");
-        } catch (error) {
+        } catch (error: any) {
           store.set(clearPixVerseStatus);
           store.set(setPolling, false);
 
@@ -377,7 +377,7 @@ export function useEditForm() {
           startKlingPolling(task.data.task.id);
 
           logger.debug("Create a video task");
-        } catch (error) {
+        } catch (error: any) {
           store.set(clearKlingStatus);
           store.set(setPolling, false);
 
